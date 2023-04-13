@@ -1,0 +1,48 @@
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+    }
+}
+
+.checkProducts {
+    display: flex;
+    justify-content: center;
+}
+
+.selectProducts {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 35px;
+}
+
+.inputProducts {
+    width: 130px;
+}
+
+.modal-content {
+    background-color: rgba(0, 0, 0, 0.897);
+}
+
+.backgr-video {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.backgr-video .video {
+    height: 100vh;
+}
+
+.backgr-video::after {
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.849) 0%, rgba(0, 0, 0, 0.849) 50%, rgba(0,0,0,1) 100%, rgb(0, 0, 0) 100%);
+}
